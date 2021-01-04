@@ -1,0 +1,40 @@
+{
+    "info": {
+        "_postman_id": "b32d683a-7fee-4347-93f2-6ddf65656309",
+        "name": "clientRoute",
+        "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+    },
+    "item": [
+        {
+            "name": "rotas nao autenticadas",
+            "item": [],
+            "_postman_id": "32b6b7f1-3ce7-4515-9f79-b81c24a78338"
+        },
+        {
+            "name": "filters",
+            "_postman_id": "ab94788c-89eb-40a1-86b0-504ec21611ab",
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "request": {
+                "method": "GET",
+                "header": [],
+                "url": {
+                    "raw": "http://localhost:7788/api/v2/filters/pricing_bigbox",
+                    "protocol": "http",
+                    "host": [
+                        "localhost"
+                    ],
+                    "port": "7788",
+                    "path": [
+                        "api",
+                        "v2",
+                        "filters",
+                        "pricing_bigbox"
+                    ]
+                }
+            },
+            "response": []
+        }
+    ]
+}

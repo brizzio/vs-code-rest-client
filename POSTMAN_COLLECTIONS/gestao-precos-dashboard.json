@@ -1,0 +1,297 @@
+{
+    "info": {
+        "_postman_id": "a2a93fe3-aad8-4d38-aa3b-e22f596c745c",
+        "name": "GENERAL",
+        "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+    },
+    "item": [
+        {
+            "name": "gestao-precos-dashboard",
+            "item": [
+                {
+                    "name": "geo lojas",
+                    "_postman_id": "fa8d72f1-82d5-42eb-a22a-6ac1e8fa1ac4",
+                    "protocolProfileBehavior": {
+                        "disableBodyPruning": true
+                    },
+                    "request": {
+                        "method": "POST",
+                        "header": [],
+                        "body": {
+                            "mode": "urlencoded",
+                            "urlencoded": [
+                                {
+                                    "key": "db_schema",
+                                    "value": "'dia'",
+                                    "type": "text"
+                                }
+                            ],
+                            "options": {
+                                "urlencoded": {}
+                            }
+                        },
+                        "url": {
+                            "raw": "{{url}}/gestao-precos-dashboard/geo/lojas",
+                            "host": [
+                                "{{url}}"
+                            ],
+                            "path": [
+                                "gestao-precos-dashboard",
+                                "geo",
+                                "lojas"
+                            ]
+                        }
+                    },
+                    "response": []
+                },
+                {
+                    "name": "geo concorrentes",
+                    "_postman_id": "37dd82ec-d98b-4eaa-9963-96d037b2c71c",
+                    "protocolProfileBehavior": {
+                        "disableBodyPruning": true
+                    },
+                    "request": {
+                        "method": "POST",
+                        "header": [],
+                        "body": {
+                            "mode": "urlencoded",
+                            "urlencoded": [
+                                {
+                                    "key": "db_schema",
+                                    "value": "'dia'",
+                                    "type": "text"
+                                }
+                            ],
+                            "options": {
+                                "urlencoded": {}
+                            }
+                        },
+                        "url": {
+                            "raw": "{{url}}/gestao-precos-dashboard/geo/concorrentes",
+                            "host": [
+                                "{{url}}"
+                            ],
+                            "path": [
+                                "gestao-precos-dashboard",
+                                "geo",
+                                "concorrentes"
+                            ]
+                        }
+                    },
+                    "response": []
+                },
+                {
+                    "name": "analise-ruptura",
+                    "_postman_id": "f36c9b63-895e-48b8-b9c3-ece6cffdbdc2",
+                    "protocolProfileBehavior": {
+                        "disableBodyPruning": true
+                    },
+                    "request": {
+                        "method": "POST",
+                        "header": [],
+                        "body": {
+                            "mode": "urlencoded",
+                            "urlencoded": [
+                                {
+                                    "key": "db_schema",
+                                    "type": "text",
+                                    "value": "'pricing_bigbox'"
+                                }
+                            ],
+                            "options": {
+                                "urlencoded": {}
+                            }
+                        },
+                        "url": {
+                            "raw": "{{url}}/gestao-precos-dashboard/analise-ruptura",
+                            "host": [
+                                "{{url}}"
+                            ],
+                            "path": [
+                                "gestao-precos-dashboard",
+                                "analise-ruptura"
+                            ]
+                        }
+                    },
+                    "response": []
+                },
+                {
+                    "name": "analise-quantitativo",
+                    "_postman_id": "ceb0f681-8d09-425f-830d-847c80a40fb5",
+                    "protocolProfileBehavior": {
+                        "disableBodyPruning": true
+                    },
+                    "request": {
+                        "method": "POST",
+                        "header": [],
+                        "body": {
+                            "mode": "urlencoded",
+                            "urlencoded": [
+                                {
+                                    "key": "db_schema",
+                                    "type": "text",
+                                    "value": "'pricing_bigbox'"
+                                }
+                            ],
+                            "options": {
+                                "urlencoded": {}
+                            }
+                        },
+                        "url": {
+                            "raw": "{{local}}/gestao-precos-dashboard/analise-quantitativo",
+                            "host": [
+                                "{{local}}"
+                            ],
+                            "path": [
+                                "gestao-precos-dashboard",
+                                "analise-quantitativo"
+                            ]
+                        }
+                    },
+                    "response": []
+                },
+                {
+                    "name": "indice-preco-concorrente",
+                    "_postman_id": "f4f2f783-5c97-4e66-b525-ffdfeda5ac6b",
+                    "protocolProfileBehavior": {
+                        "disableBodyPruning": true
+                    },
+                    "request": {
+                        "method": "POST",
+                        "header": [],
+                        "body": {
+                            "mode": "urlencoded",
+                            "urlencoded": [
+                                {
+                                    "key": "db_schema",
+                                    "value": "'pricing_bigbox'",
+                                    "type": "text"
+                                }
+                            ],
+                            "options": {
+                                "urlencoded": {}
+                            }
+                        },
+                        "url": {
+                            "raw": "{{url}}/gestao-precos-dashboard/indice-preco-concorrente",
+                            "host": [
+                                "{{url}}"
+                            ],
+                            "path": [
+                                "gestao-precos-dashboard",
+                                "indice-preco-concorrente"
+                            ]
+                        }
+                    },
+                    "response": []
+                },
+                {
+                    "name": "indice-competitividade",
+                    "_postman_id": "39da9128-e991-43d2-9b19-dae5c16fd86e",
+                    "protocolProfileBehavior": {
+                        "disableBodyPruning": true
+                    },
+                    "request": {
+                        "method": "POST",
+                        "header": [],
+                        "body": {
+                            "mode": "urlencoded",
+                            "urlencoded": [
+                                {
+                                    "key": "db_schema",
+                                    "type": "text",
+                                    "value": "'pricing_bigbox'"
+                                }
+                            ],
+                            "options": {
+                                "urlencoded": {}
+                            }
+                        },
+                        "url": {
+                            "raw": "{{url}}/gestao-precos-dashboard/indice-competitividade",
+                            "host": [
+                                "{{url}}"
+                            ],
+                            "path": [
+                                "gestao-precos-dashboard",
+                                "indice-competitividade"
+                            ]
+                        }
+                    },
+                    "response": []
+                },
+                {
+                    "name": "totalizadores-dash",
+                    "_postman_id": "e1e53dc1-c201-4ef3-aa9d-5940bc7536b4",
+                    "protocolProfileBehavior": {
+                        "disableBodyPruning": true
+                    },
+                    "request": {
+                        "method": "POST",
+                        "header": [],
+                        "body": {
+                            "mode": "urlencoded",
+                            "urlencoded": [
+                                {
+                                    "key": "db_schema",
+                                    "type": "text",
+                                    "value": "'pricing_bigbox'"
+                                }
+                            ],
+                            "options": {
+                                "urlencoded": {}
+                            }
+                        },
+                        "url": {
+                            "raw": "{{local}}/gestao-precos-dashboard/totalizadores-dash",
+                            "host": [
+                                "{{local}}"
+                            ],
+                            "path": [
+                                "gestao-precos-dashboard",
+                                "totalizadores-dash"
+                            ]
+                        }
+                    },
+                    "response": []
+                },
+                {
+                    "name": "venda-sensibilidade",
+                    "_postman_id": "ff0d7839-c65e-4644-91d5-981a800c211d",
+                    "protocolProfileBehavior": {
+                        "disableBodyPruning": true
+                    },
+                    "request": {
+                        "method": "POST",
+                        "header": [],
+                        "body": {
+                            "mode": "urlencoded",
+                            "urlencoded": [
+                                {
+                                    "key": "db_schema",
+                                    "type": "text",
+                                    "value": "'pricing_bigbox'"
+                                }
+                            ],
+                            "options": {
+                                "urlencoded": {}
+                            }
+                        },
+                        "url": {
+                            "raw": "{{url}}/gestao-precos-dashboard/venda-sensibilidade",
+                            "host": [
+                                "{{url}}"
+                            ],
+                            "path": [
+                                "gestao-precos-dashboard",
+                                "venda-sensibilidade"
+                            ]
+                        }
+                    },
+                    "response": []
+                }
+            ],
+            "_postman_id": "d827886c-5980-47d3-ac4b-2f8f54926a61"
+        }
+    ]
+}
