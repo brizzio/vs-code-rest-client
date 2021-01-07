@@ -1,0 +1,27 @@
+
+@local = http://localhost:5566
+
+//***********************************************
+//  filtrodependentes
+//  pesquisa itens baseado em uma string
+//***********************************************
+
+POST {{local}}/api/v2/gestao/pesquisas
+Content-Type: application/x-www-form-urlencoded
+
+&cluster=null
+&codigo_pai=null
+&tipo_concorrente=null
+&db_schema='dia'
+
+
+
+
+
+
+
+
+
+
+
+
