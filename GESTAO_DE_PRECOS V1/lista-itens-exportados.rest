@@ -1,16 +1,16 @@
 
 @local = http://localhost:5566
-//@local = https://bigboxapi.profitmais.com.br
 //***********************************************
 //  filtrodependentes
 //  pesquisa itens baseado em uma string
 //***********************************************
 
-POST {{local}}/api/v2/gestao/export
+POST {{local}}/api/v2/gestao/update/lista-itens-exportados
 Content-Type: application/x-www-form-urlencoded
 
 &uid='99999'
-&data='08/01/2021'
+&registros='250'
+&pagina='1'
 &db_schema='dia'
 
 

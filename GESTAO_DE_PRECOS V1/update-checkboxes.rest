@@ -1,16 +1,26 @@
 
 @local = http://localhost:5566
-//@local = https://bigboxapi.profitmais.com.br
+
 //***********************************************
 //  filtrodependentes
 //  pesquisa itens baseado em uma string
 //***********************************************
 
-POST {{local}}/api/v2/gestao/export
+POST {{local}}/api/v1/gestao/update/checkboxes
 Content-Type: application/x-www-form-urlencoded
 
-&uid='99999'
-&data='08/01/2021'
+&fornecedor='PHILIP MORRIS BRASIL LTDA'
+&produto=null
+&bandeira='BIG BOX'
+&cluster=null
+&sensibilidade=null
+&papel_categoria=null
+&departamento=null
+&secao=null
+&grupo='CIGARROS'
+&sub_grupo=null
+&analisado='1'
+&uid='123456'
 &db_schema='dia'
 
 
