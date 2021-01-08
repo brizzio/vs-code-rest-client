@@ -8,11 +8,11 @@
 POST {{local}}/api/v2/gestao/update
 Content-Type: application/x-www-form-urlencoded
 
-&cluster='ULTRABOX SUDESTE'
-&codigo_pai=null
+&cluster='SP - CAMPINAS'
+&codigo_pai='266759'
 &analisado='1'
 &exportado='0'
-&preco_decisao='2.02'
+&preco_decisao='8.15'
 &uid='99999'
 &db_schema='dia'
 

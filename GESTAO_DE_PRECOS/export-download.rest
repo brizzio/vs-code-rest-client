@@ -1,6 +1,6 @@
 
-@local = http://localhost:5566
-//@local = https://bigboxapi.profitmais.com.br
+//@local = http://localhost:5566
+@local = https://bigboxapi.profitmais.com.br
 //***********************************************
 //  filtrodependentes
 //  pesquisa itens baseado em uma string
