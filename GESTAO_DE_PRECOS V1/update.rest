@@ -5,11 +5,11 @@
 //  pesquisa itens baseado em uma string
 //***********************************************
 
-POST {{local}}/api/v2/gestao/update
+POST {{local}}/api/v1/gestao/update
 Content-Type: application/x-www-form-urlencoded
 
 &cluster='ULTRABOX SUDESTE'
-&codigo_pai=null
+&codigo_pai='1-9'
 &analisado='1'
 &exportado='0'
 &preco_decisao='2.02'
