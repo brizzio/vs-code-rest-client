@@ -1,11 +1,4 @@
-HTTP/1.1 200 OK
-X-Powered-By: Express
-Access-Control-Allow-Origin: *
-Content-Type: application/json; charset=utf-8
-Content-Length: 915
-ETag: W/"393-ZdropU2zCrjQTsQqTf+6fykkMCI"
-Date: Wed, 13 Jan 2021 01:23:30 GMT
-Connection: close
+
 
 {
   "status": "success",
@@ -43,40 +36,3 @@ Connection: close
     "uc_filtro_escala": ""
   }
 }
-
-
-config.user.id = obj.uc_id
-    config.user.idexport = obj.uc_id_exportacao
-    /* config.user.alias = obj.uc_alias
-    config.user.name = obj.uc_nome
-    config.user.surname = obj.uc_sobrenome
-    config.user.fullname = obj.uc_nome + " " + obj.uc_sobrenome
-    config.user.email = obj.uc_email
-    config.user.image = obj.uc_foto_url
-    
-    config.system.start = obj.uc_landpage
-    config.system.schema = obj.uc_db_schema
-    
-    config.empresa.id = obj.uc_id_empresa
-    config.empresa.nome = obj.uc_nome_empresa
-    
-    config.modules.gestao.filtro.bandeira = obj.uc_filtro_bandeira 
-    config.modules.gestao.filtro.cluster = obj.uc_filtro_cluster  
-    config.modules.gestao.filtro.departamento = obj.uc_filtro_departamento 
-    config.modules.gestao.filtro.secao = obj.uc_filtro_secao
-    config.modules.gestao.filtro.grupo = obj.uc_filtro_grupo
-    config.modules.gestao.filtro.sub_grupo = obj.uc_filtro_sub_grupo 
-    config.modules.gestao.filtro.produto = obj.uc_filtro_produto 
-    config.modules.gestao.filtro.sensibilidade = obj.uc_filtro_sensibilidade 
-    config.modules.gestao.filtro.papel_categoria = obj.uc_filtro_papel_categoria 
-    config.modules.gestao.filtro.escala = obj.uc_filtro_escala 
-    config.modules.gestao.filtro.fornecedor = obj.uc_filtro_fornecedor 
-
-    config.modules.parametros = ''
-    
-    config.modules.pesquisas = ''
-    
-    config.modules.promo = ''
-    
-    config.modules.bi = ''
- */
