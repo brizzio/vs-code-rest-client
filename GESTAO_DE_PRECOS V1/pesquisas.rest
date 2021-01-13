@@ -6,7 +6,7 @@
 //  pesquisa itens baseado em uma string
 //***********************************************
 
-POST {{local}}/api/v2/gestao/pesquisas
+POST {{local}}/api/v1/gestao/pesquisas
 Content-Type: application/x-www-form-urlencoded
 
 &cluster=null
