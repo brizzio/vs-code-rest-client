@@ -1,0 +1,28 @@
+
+@local = http://localhost:5566
+//@local = https://bigboxapi.profitmais.com.br
+@schema ='pricing_bigbox'
+
+//***********************************************
+//  
+//***********************************************
+
+GET {{local}}/api/users/
+
+
+
+###
+POST {{local}}/api/users/config/fernando.antonio@bigbox.com.br
+
+
+
+
+
+
+
+
+
+
+
+
+

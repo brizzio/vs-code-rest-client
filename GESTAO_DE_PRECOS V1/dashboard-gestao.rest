@@ -1,0 +1,66 @@
+
+//@local = http://localhost:5566
+@local = https://bigboxapi.profitmais.com.br
+@schema ='pricing_bigbox'
+
+//***********************************************
+//  filtrodependentes
+//  pesquisa itens baseado em uma string
+//***********************************************
+
+POST {{local}}/api/v1/gestao-precos-dashboard/geo/lojas
+Content-Type: application/x-www-form-urlencoded
+
+&db_schema={{schema}}
+
+###
+POST {{local}}/api/v1/gestao-precos-dashboard/geo/concorrentes
+Content-Type: application/x-www-form-urlencoded
+
+&db_schema={{schema}}
+
+###
+POST {{local}}/api/v1/gestao-precos-dashboard/analise-ruptura
+Content-Type: application/x-www-form-urlencoded
+
+&db_schema={{schema}}
+
+###
+POST {{local}}/api/v1/gestao-precos-dashboard/analise-quantitativo
+Content-Type: application/x-www-form-urlencoded
+
+&db_schema={{schema}}
+
+###
+POST {{local}}/api/v1/gestao-precos-dashboard/indice-preco-concorrente
+Content-Type: application/x-www-form-urlencoded
+
+&db_schema={{schema}}
+
+###
+POST {{local}}/api/v1/gestao-precos-dashboard/indice-competitividade
+Content-Type: application/x-www-form-urlencoded
+
+&db_schema={{schema}}
+
+###
+POST {{local}}/api/v1/gestao-precos-dashboard/totalizadores-dash
+Content-Type: application/x-www-form-urlencoded
+
+&db_schema={{schema}}
+
+###
+POST {{local}}/api/v1/gestao-precos-dashboard/venda-sensibilidade
+Content-Type: application/x-www-form-urlencoded
+
+&db_schema={{schema}}
+
+
+
+
+
+
+
+
+
+

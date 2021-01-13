@@ -1,0 +1,7 @@
+
+@local = http://localhost:5566
+@token = Bearer e975b15aa477ee440417ea069e8ef728a22933f0
+
+GET {{local}}/api/v2/gestao/search/dia/petit
+Content-Type: application/x-www-form-urlencoded
+

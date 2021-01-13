@@ -1,0 +1,25 @@
+
+@local = http://localhost:5566
+@token =eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJvYmoiOnsiaWQiOiIxNzEiLCJ1c2VyIjoiQklHIEJPWCJ9LCJpYXQiOjE2MDEzMzEyNDMsImV4cCI6NDc1NzA5MTI0M30.AiMBN6WdhdEVqOC8pwpjPR1hCjTdHZ5qQeW40HDCuD0
+@url = https://bigboxapi.profitmais.com.br
+//***********************************************
+//  filtrodependentes
+//  pesquisa itens baseado em uma string
+//***********************************************
+
+GET {{local}}/api/pricing/precoService/receber
+Content-Type: application/x-www-form-urlencoded
+token:{{token}}
+
+
+
+
+
+
+
+
+
+
+
+
+

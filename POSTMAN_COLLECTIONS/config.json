@@ -1,0 +1,82 @@
+HTTP/1.1 200 OK
+X-Powered-By: Express
+Access-Control-Allow-Origin: *
+Content-Type: application/json; charset=utf-8
+Content-Length: 915
+ETag: W/"393-ZdropU2zCrjQTsQqTf+6fykkMCI"
+Date: Wed, 13 Jan 2021 01:23:30 GMT
+Connection: close
+
+{
+  "status": "success",
+  "data": {
+    "uc_id": 1,
+    "uc_uid": "4213ab3f-71e7-4bbd-8a12-901be42bfa83",
+    "uc_nome": "Fernando",
+    "uc_sobrenome": "Antonio",
+    "uc_email": "fernando.antonio@bigbox.com.br",
+    "uc_alias": "fernando",
+    "uc_password": "",
+    "uc_ddd": "61",
+    "uc_telefone": "992928822",
+    "uc_foto_url": "https://i1.wp.com/roteirobaby.com.br/portal/wp-content/uploads/2020/10/icon.png?fit=340%2C340&ssl=1",
+    "uc_landpage": "default",
+    "uc_role_id": "0",
+    "uc_role": "EDITOR",
+    "uc_divisao_id": "",
+    "uc_divisao_descricao": "",
+    "uc_id_exportacao": "60739",
+    "uc_id_empresa": "1",
+    "uc_nome_empresa": "BIGBOX",
+    "uc_db_schema": "pricing_bigbox",
+    "uc_api_url": "https://bigboxapi.profitmais.com.br/api/v1/",
+    "uc_filtro_grupo": "",
+    "uc_filtro_fornecedor": "",
+    "uc_filtro_produto": "",
+    "uc_filtro_bandeira": "",
+    "uc_filtro_sensibilidade": "",
+    "uc_filtro_papel_categoria": "",
+    "uc_filtro_sub_grupo": "",
+    "uc_filtro_cluster": "",
+    "uc_filtro_departamento": "",
+    "uc_filtro_secao": "",
+    "uc_filtro_escala": ""
+  }
+}
+
+
+config.user.id = obj.uc_id
+    config.user.idexport = obj.uc_id_exportacao
+    /* config.user.alias = obj.uc_alias
+    config.user.name = obj.uc_nome
+    config.user.surname = obj.uc_sobrenome
+    config.user.fullname = obj.uc_nome + " " + obj.uc_sobrenome
+    config.user.email = obj.uc_email
+    config.user.image = obj.uc_foto_url
+    
+    config.system.start = obj.uc_landpage
+    config.system.schema = obj.uc_db_schema
+    
+    config.empresa.id = obj.uc_id_empresa
+    config.empresa.nome = obj.uc_nome_empresa
+    
+    config.modules.gestao.filtro.bandeira = obj.uc_filtro_bandeira 
+    config.modules.gestao.filtro.cluster = obj.uc_filtro_cluster  
+    config.modules.gestao.filtro.departamento = obj.uc_filtro_departamento 
+    config.modules.gestao.filtro.secao = obj.uc_filtro_secao
+    config.modules.gestao.filtro.grupo = obj.uc_filtro_grupo
+    config.modules.gestao.filtro.sub_grupo = obj.uc_filtro_sub_grupo 
+    config.modules.gestao.filtro.produto = obj.uc_filtro_produto 
+    config.modules.gestao.filtro.sensibilidade = obj.uc_filtro_sensibilidade 
+    config.modules.gestao.filtro.papel_categoria = obj.uc_filtro_papel_categoria 
+    config.modules.gestao.filtro.escala = obj.uc_filtro_escala 
+    config.modules.gestao.filtro.fornecedor = obj.uc_filtro_fornecedor 
+
+    config.modules.parametros = ''
+    
+    config.modules.pesquisas = ''
+    
+    config.modules.promo = ''
+    
+    config.modules.bi = ''
+ */
