@@ -13,20 +13,33 @@ Content-Type: application/x-www-form-urlencoded
 &fornecedor=null
 &produto=null
 &bandeira='DIA'
-&sensibilidade=null
+&sensibilidade='SENSÍVEL'
 &papel_categoria=null
 &sub_grupo=null
 &cluster=null
-&departamento='BAZAR'
+&departamento=null
 &secao=null
 &registros='250'
 &pagina='1'
 &db_schema='dia'
 
 
-
-
-
+# cliente: DIA
+# "cluster_simulador": "MG - BH ALTO",
+# "codigo_pai": "59461",
+#
+# campo na tabela              campo na API           Valor Referencia
+# ---------------              ------------           ----------------
+# Margem Objetiva	-----> "margem_objetiva_produto": "0.19",
+# Margem Atual	---------> "margem_atual_regular": "0.4823848238482384823848",
+# Margem Nova -----------> "margem_nova": "49.473767196182202898547993942738513",
+# Variação Novo Preço ---> "var_novo_preco":  -31.18,
+# Novo Preco Atacado ---->  "preco_decisao_atacado": null,
+# Índice Regular Atual	--->  "indice_regular_atual": "86.67953667953667953700",
+# Índice Novo Preço Regular ---> "indice_novo_preco_regular": "59.65250965250965251000"
+# Quantidade Vendas Regular Estimada ---> "qtde_vendas_estimada": "80.24399999999985",
+# Diferença Unitário --->  "diferenca_preco_unitario": "-1.40",	
+# Diferença Total R$ ---> "diferenca_preco_total": "113.14403999999978850000168512399999999685"
 
 
 

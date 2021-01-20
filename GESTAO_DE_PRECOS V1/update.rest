@@ -1,5 +1,5 @@
 
-@local = http://localhost:5566
+@local = https://bigboxapi.profitmais.com.br
 //***********************************************
 //  filtrodependentes
 //  pesquisa itens baseado em uma string
@@ -9,12 +9,28 @@ POST {{local}}/api/v1/gestao/update
 Content-Type: application/x-www-form-urlencoded
 
 &cluster='ULTRABOX SUDESTE'
-&codigo_pai='1-9'
+&codigo_pai='8688-6'
 &analisado='1'
 &exportado='0'
-&preco_decisao='2.02'
-&uid='99999'
-&db_schema='dia'
+&preco_decisao='1.22'
+&uid='1234567'
+
+# {
+#   "status": "success",
+#   "data": [
+#     {
+#       "update_values": {
+#         "margem_nova": 25.99590163934426,
+#         "var_novo_preco": -5.426356589147287,
+#         "novo_preco_atacado": 1.15,
+#         "indice_regular_atual": 103.10077519379846,
+#         "indice_novo_preco_regular": 97.6,
+#         "diferenca_preco_unitario": -0.07,
+#         "diferenca_preco_total": -88.43139131223009,
+#         "qtde_vendas_estimada": 1947.930159497385
+#       }
+#     }
+#   ],
 
 
 
