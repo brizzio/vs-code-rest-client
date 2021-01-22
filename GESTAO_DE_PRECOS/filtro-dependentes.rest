@@ -1,5 +1,8 @@
 
-@local = http://localhost:5566
+//@local = http://localhost:5566
+
+@local = https://bigboxapi.profitmais.com.br
+@schema ='semar'
 
 //***********************************************
 //  filtrodependentes
@@ -19,7 +22,7 @@ Content-Type: application/x-www-form-urlencoded
 &cluster=null
 &departamento=null
 &secao=null
-&db_schema='dia'
+&db_schema={{schema}}
 
 
 
