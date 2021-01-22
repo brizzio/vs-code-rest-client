@@ -1,0 +1,50 @@
+
+@local = http://localhost:5566
+
+//***********************************************
+//  
+//  s
+//***********************************************
+
+POST {{local}}/api/v1/gestao/filtro
+Content-Type: application/x-www-form-urlencoded
+
+&grupo=null
+&fornecedor=null
+&produto=null
+&bandeira='ULTRABOX'
+&sensibilidade='SENSÍVEL'
+&papel_categoria=null
+&sub_grupo=null
+&cluster=null
+&departamento=null
+&secao=null
+&registros='250'
+&pagina='1'
+&db_schema='dia'
+
+
+# cliente: BIGBOX
+# bandeira: ULTRABOX
+# "cluster_simulador": "ULTRABOX SUDESTE",
+# "codigo_pai": "8688-6",
+#
+# campo na tabela              campo na API           Valor Referencia
+# ---------------              ------------           ----------------
+# Margem Objetiva	-----> "margem_objetiva_produto": "0.25",
+# Margem Atual	--------->"margem_atual_regular": "0.2950968992248062015504",
+# Margem Nova -----------> "margem_nova": "27.5500000000000000000000",
+# Variação Novo Preço ---> "var_novo_preco": "-3.10077519379844961200",
+# Novo Preco Atacado ---->  "preco_decisao_atacado": null, *! este campo so é atualizado na funcao update. Na v1 o valor inicial esta no "sugestao_sistema_atacado": "1.15",
+# Índice Regular Atual	---> "indice_regular_atual": "103.10077519379844961200",
+# Índice Novo Preço Regular --->  "indice_novo_preco_regular": "100.00000000000000000000",
+# Quantidade Vendas Regular Estimada ---> "qtde_vendas_estimada": "1947.930159497385",
+# Diferença Unitário --->  "diferenca_preco_unitario": "-0.04",
+# Diferença Total R$ ---> "diferenca_preco_total": "-35.398992719913788124072414209763150000",
+
+
+
+
+
+
+
