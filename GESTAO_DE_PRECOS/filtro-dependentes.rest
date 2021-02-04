@@ -1,8 +1,8 @@
 
-//@local = http://localhost:5566
+@local = http://localhost:5566
 
-@local = https://bigboxapi.profitmais.com.br
-@schema ='semar'
+//@local = https://bigboxapi.profitmais.com.br
+@schema ='dia'
 
 //***********************************************
 //  filtrodependentes
@@ -12,7 +12,7 @@
 POST {{local}}/api/v2/gestao/filtro-dependentes
 Content-Type: application/x-www-form-urlencoded
 
-&grupo=null
+&grupo='Frio +'
 &fornecedor=null
 &produto=null
 &bandeira=null
@@ -22,7 +22,8 @@ Content-Type: application/x-www-form-urlencoded
 &cluster=null
 &departamento=null
 &secao=null
-&db_schema={{schema}}
+&db_schema='dia'
+//{{schema}}
 
 
 

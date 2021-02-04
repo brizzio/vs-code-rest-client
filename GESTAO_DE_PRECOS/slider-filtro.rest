@@ -1,5 +1,6 @@
 
-@local = http://localhost:5566
+//@local = http://localhost:5566
+@local = https://bigboxapi.profitmais.com.br
 
 //***********************************************
 //  classificador/diferenca-total
@@ -23,11 +24,48 @@ Content-Type: application/x-www-form-urlencoded
 &maioriguala='-1000'
 &registros='250'
 &pagina='1'
-&db_schema='dia'
+&db_schema='semar'
 
 
+###
+POST {{local}}/api/v2/gestao/classificador/diferenca-total
+Content-Type: application/x-www-form-urlencoded
 
+&grupo=null
+&fornecedor=null
+&produto=null
+&bandeira=null
+&sensibilidade=null
+&papel_categoria=null
+&sub_grupo=null
+&cluster=null
+&departamento=null
+&secao=null
+&slider='2'
+&maioriguala='1'
+&registros='250'
+&pagina='1'
+&db_schema='semar'
 
+###
+POST {{local}}/api/v2/gestao/classificador/diferenca-total
+Content-Type: application/x-www-form-urlencoded
+
+&grupo=null
+&fornecedor=null
+&produto=null
+&bandeira=null
+&sensibilidade=null
+&papel_categoria=null
+&sub_grupo=null
+&cluster=null
+&departamento=null
+&secao=null
+&slider='3'
+&maioriguala='1'
+&registros='250'
+&pagina='1'
+&db_schema='semar'
 
 
 

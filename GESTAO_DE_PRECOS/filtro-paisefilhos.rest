@@ -1,5 +1,11 @@
 
-@local = http://localhost:5566
+//@local = http://localhost:5566
+
+
+@local = https://bigboxapi.profitmais.com.br
+
+
+@schema ='pricing_bigbox'
 
 //***********************************************
 //  
@@ -12,16 +18,16 @@ Content-Type: application/x-www-form-urlencoded
 &grupo=null
 &fornecedor=null
 &produto=null
-&bandeira='DIA'
+&bandeira=null
 &sensibilidade=null
 &papel_categoria=null
 &sub_grupo=null
 &cluster=null
-&departamento='BAZAR'
+&departamento=null
 &secao=null
 &registros='250'
 &pagina='1'
-&db_schema='dia'
+&db_schema={{schema}}
 
 
 

@@ -1,5 +1,8 @@
 
-@local = http://localhost:5566
+//@local = http://localhost:5566
+
+@local = https://bigboxapi.profitmais.com.br
+@schema ='semar'
 //***********************************************
 //  filtrodependentes
 //  pesquisa itens baseado em uma string
@@ -16,7 +19,20 @@ Content-Type: application/x-www-form-urlencoded
 &uid='99999'
 &db_schema='dia'
 
+###
+# SEMAR
+#.........................
 
+POST {{local}}/api/v2/gestao/update
+Content-Type: application/x-www-form-urlencoded
+
+&cluster='FERRAZ'
+&codigo_pai='150429'
+&analisado='1'
+&exportado='0'
+&preco_decisao='7.20'
+&uid='99999'
+&db_schema='semar'
 
 
 

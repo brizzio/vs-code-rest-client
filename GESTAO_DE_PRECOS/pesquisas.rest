@@ -1,5 +1,10 @@
 
-@local = http://localhost:5566
+//@local = http://localhost:5566
+
+@local = https://bigboxapi.profitmais.com.br
+
+
+@schema ='semar'
 
 //***********************************************
 //  filtrodependentes
@@ -9,10 +14,10 @@
 POST {{local}}/api/v2/gestao/pesquisas
 Content-Type: application/x-www-form-urlencoded
 
-&cluster=null
-&codigo_pai=null
-&tipo_concorrente=null
-&db_schema='dia'
+&cluster='UBATUBA'
+&codigo_pai='1817'
+&tipo_concorrente='PRIMARIO'
+&db_schema={{schema}}
 
 
 

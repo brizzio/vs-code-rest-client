@@ -20,9 +20,9 @@ Content-Type: application/x-www-form-urlencoded
 &papel_categoria=null
 &sub_grupo=null
 &cluster=null
-&departamento='LIMPEZA'
+&departamento=null
 &secao=null
-&registros='250'
+&registros='100'
 &pagina='1'
 &db_schema={{schema}}
 
