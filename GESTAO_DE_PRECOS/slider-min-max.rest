@@ -22,7 +22,7 @@ Content-Type: application/x-www-form-urlencoded
 &cluster=null
 &departamento=null
 &secao=null
-&db_schema='semar'
+&db_schema='dia'
 
 
 

@@ -1,13 +1,13 @@
 
 //@local = http://localhost:5566
 @local = https://bigboxapi.profitmais.com.br
-
+@schema = 'dia'
 //***********************************************
 //  classificador/diferenca-total
 //  pesquisa itens baseado em uma string
 //***********************************************
 
-POST {{local}}/api/v2/gestao/classificador/diferenca-total
+POST {{local}}/api/v2/gestao/classificador/slider-filtro
 Content-Type: application/x-www-form-urlencoded
 
 &grupo=null
@@ -21,14 +21,14 @@ Content-Type: application/x-www-form-urlencoded
 &departamento=null
 &secao=null
 &slider='1'
-&maioriguala='-1000'
-&registros='250'
+&maioriguala='-100' 
+&registros='50'
 &pagina='1'
-&db_schema='semar'
+&db_schema={{schema}}
 
 
 ###
-POST {{local}}/api/v2/gestao/classificador/diferenca-total
+POST {{local}}/api/v2/gestao/classificador/slider-filtro
 Content-Type: application/x-www-form-urlencoded
 
 &grupo=null
@@ -42,13 +42,13 @@ Content-Type: application/x-www-form-urlencoded
 &departamento=null
 &secao=null
 &slider='2'
-&maioriguala='1'
-&registros='250'
-&pagina='1'
-&db_schema='semar'
+&maioriguala='20'
+&registros='50'
+&pagina='3'
+&db_schema={{schema}}
 
 ###
-POST {{local}}/api/v2/gestao/classificador/diferenca-total
+POST {{local}}/api/v2/gestao/classificador/slider-filtro
 Content-Type: application/x-www-form-urlencoded
 
 &grupo=null
@@ -63,9 +63,9 @@ Content-Type: application/x-www-form-urlencoded
 &secao=null
 &slider='3'
 &maioriguala='1'
-&registros='250'
-&pagina='1'
-&db_schema='semar'
+&registros='50'
+&pagina='12'
+&db_schema={{schema}}
 
 
 

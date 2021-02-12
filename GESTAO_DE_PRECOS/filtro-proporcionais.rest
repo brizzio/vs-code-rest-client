@@ -1,5 +1,7 @@
 
-@local = http://localhost:5566
+//@local = http://localhost:5566
+
+@local = https://bigboxapi.profitmais.com.br
 
 //***********************************************
 //  
@@ -19,9 +21,9 @@ Content-Type: application/x-www-form-urlencoded
 &cluster=null
 &departamento=null
 &secao=null
-&registros='250'
+&registros='50'
 &pagina='1'
-&db_schema='semar'
+&db_schema='dia'
 
 
 

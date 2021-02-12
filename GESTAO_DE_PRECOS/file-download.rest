@@ -1,22 +1,14 @@
 
 @local = http://localhost:5566
-
-//@local = https://bigboxapi.profitmais.com.br
-
-
-@schema ='dia'
-
 //***********************************************
 //  filtrodependentes
 //  pesquisa itens baseado em uma string
 //***********************************************
-POST {{local}}/api/v2/gestao/pesquisas
+
+POST {{local}}/api/v2/gestao/file-download
 Content-Type: application/x-www-form-urlencoded
 
-&cluster='SP - CAPITAL/GDE SP - ALTO'
-&codigo_pai='37145'
-&tipo_concorrente='PRIMARIO'
-&db_schema={{schema}}
+&db_schema='pricing_bigbox'
 
 
 
