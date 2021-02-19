@@ -2,7 +2,7 @@
 //@local = http://localhost:5566
 
 @local = https://bigboxapi.profitmais.com.br
-@schema ='semar'
+@schema ='pricing_bigbox'
 
 //***********************************************
 //  
