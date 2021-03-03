@@ -17,12 +17,14 @@ Content-Type: application/x-www-form-urlencoded
 &sensibilidade=null
 &papel_categoria=null
 &sub_grupo=null
-&cluster=null
+&cluster='MG - BH ALTO'
 &departamento=null
 &secao=null
-&slider='1'
-&maioriguala='-100' 
-&registros='50'
+&slider='2'
+&maioriguala='50' 
+&abaixo_de=null
+&acima_de='50'
+&registros='200'
 &pagina='1'
 &db_schema={{schema}}
 
