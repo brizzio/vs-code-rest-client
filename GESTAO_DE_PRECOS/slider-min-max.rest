@@ -1,7 +1,7 @@
 
-//@local = http://localhost:5566
+@local = http://localhost:5566
 
-@local = https://bigboxapi.profitmais.com.br
+//@local = https://bigboxapi.profitmais.com.br
 
 
 //***********************************************
@@ -19,7 +19,7 @@ Content-Type: application/x-www-form-urlencoded
 &sensibilidade=null
 &papel_categoria=null
 &sub_grupo=null
-&cluster=null
+&cluster='MG - BH ALTO'
 &departamento=null
 &secao=null
 &db_schema='dia'
