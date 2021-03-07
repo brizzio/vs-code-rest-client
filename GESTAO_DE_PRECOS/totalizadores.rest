@@ -17,14 +17,17 @@ Content-Type: application/x-www-form-urlencoded
 &bandeira=null
 &sensibilidade=null
 &papel_categoria=null
-&sub_grupo='Cafes'
-&cluster='MG - BH ALTO'
+&sub_grupo=null
+&cluster=null
 &departamento=null
 &secao=null
 &db_schema='dia'
 
 
-
+//Mrg Objetiva ------> margem_objetiva_ponderada2
+//Mrg Reg Atual -----> margem_atual_ponderada2
+//Mrg Reg Sugestão --> margem_nova_ponderada2
+//Mrg Reg Final -----> margem_real
 
 
 

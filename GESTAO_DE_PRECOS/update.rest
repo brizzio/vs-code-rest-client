@@ -11,11 +11,11 @@
 POST {{local}}/api/v2/gestao/update
 Content-Type: application/x-www-form-urlencoded
 
-&cluster='SP - CAMPINAS'
-&codigo_pai='266759'
+&cluster='MG - BH BAIXO'
+&codigo_pai='42472'
 &analisado='1'
 &exportado='0'
-&preco_decisao='8.15'
+&preco_decisao='9.85'
 &uid='99999'
 &db_schema='dia'
 
