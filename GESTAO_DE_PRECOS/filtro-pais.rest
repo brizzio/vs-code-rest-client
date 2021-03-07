@@ -15,7 +15,7 @@ Content-Type: application/x-www-form-urlencoded
 &grupo=null
 &fornecedor=null
 &produto=null
-&bandeira=null
+&bandeira='ULTRABOX'
 &sensibilidade=null
 &papel_categoria=null
 &sub_grupo=null
