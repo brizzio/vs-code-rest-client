@@ -1,6 +1,6 @@
 
-//@local = http://localhost:5566
-@local = https://bigboxapi.profitmais.com.br
+@local = http://localhost:5566
+//@local = https://bigboxapi.profitmais.com.br
 @schema = 'dia'
 //***********************************************
 //  classificador/diferenca-total
@@ -16,23 +16,15 @@ Content-Type: application/x-www-form-urlencoded
 &bandeira='DIA'
 &sensibilidade=null
 &papel_categoria=null
-&sub_grupo=null
-<<<<<<< HEAD
+&sub_grupo='Azucar'
 &cluster=null
 &departamento=null
 &secao=null
-&slider='2'
+&slider='3'
 &maioriguala='0'
-=======
-&cluster='MG - BH ALTO'
-&departamento=null
-&secao=null
-&slider='2'
-&maioriguala='50' 
->>>>>>> 97991e2427c685bef2436639a4bfde012c739a8c
-&abaixo_de=null
-&acima_de='50'
-&registros='200'
+&abaixo_de='5'
+&acima_de='22'
+&registros='250'
 &pagina='1'
 &db_schema='dia'
 
@@ -82,6 +74,31 @@ Content-Type: application/x-www-form-urlencoded
 &abaixo_de='-2243'
 &acima_de='2417'
 
+
+### SEMAR
+POST {{local}}/api/v2/gestao/classificador/slider-filtro
+Content-Type: application/x-www-form-urlencoded
+
+&grupo=null
+&fornecedor=null
+&produto=null
+&bandeira=null
+&nome_bandeira=null
+&sensibilidade=null
+&papel_categoria=null
+&sub_grupo=null
+&subgrupo=null
+&cluster=null
+&departamento=null
+&secao=null
+&registros='150'
+&pagina='1'
+&db_schema='semar'
+&tipo='pais'
+&slider='1'
+&maioriguala='0'
+&abaixo_de='-2243'
+&acima_de='2417'
 
 
 

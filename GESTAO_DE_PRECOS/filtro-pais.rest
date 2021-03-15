@@ -1,8 +1,8 @@
 
-//@local = http://localhost:5566
+@local = http://localhost:5566
 
-@local = https://bigboxapi.profitmais.com.br
-@schema ='pricing_bigbox'
+//local = https://bigboxapi.profitmais.com.br
+@schema ='dia'
 
 //***********************************************
 //  
@@ -15,14 +15,14 @@ Content-Type: application/x-www-form-urlencoded
 &grupo=null
 &fornecedor=null
 &produto=null
-&bandeira='ULTRABOX'
+&bandeira=null
 &sensibilidade=null
 &papel_categoria=null
-&sub_grupo=null
-&cluster=null
+&sub_grupo='Azucar'
+&cluster='MG - BH BAIXO'
 &departamento=null
 &secao=null
-&registros='100'
+&registros='250'
 &pagina='1'
 &db_schema={{schema}}
 

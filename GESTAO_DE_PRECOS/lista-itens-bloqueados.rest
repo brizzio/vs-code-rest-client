@@ -1,0 +1,14 @@
+//@local = http://localhost:5566
+@local = https://bigboxapi.profitmais.com.br
+//***********************************************
+//  filtrodependentes
+//  pesquisa itens baseado em uma string
+//***********************************************
+
+POST {{local}}/api/v2/gestao/update/lista-itens-bloqueados
+Content-Type: application/x-www-form-urlencoded
+
+&uid='99999'
+&registros='250'
+&pagina='1'
+&db_schema='dia'

@@ -3,19 +3,36 @@
 
 @local = https://bigboxapi.profitmais.com.br
 @schema ='semar'
+###
 //***********************************************
-//  filtrodependentes
-//  pesquisa itens baseado em uma string
+//  atualiza valores
 //***********************************************
 
 POST {{local}}/api/v2/gestao/update
 Content-Type: application/x-www-form-urlencoded
 
 &cluster='MG - BH BAIXO'
-&codigo_pai='42472'
-&analisado='1'
+&codigo_pai='167292'
+&analizado='2'
 &exportado='0'
-&preco_decisao='9.85'
+&preco_decisao='4.79'
+&uid='99999'
+&db_schema='dia'
+
+
+###
+//***********************************************
+//  atualiza valores no modo teste
+//***********************************************
+
+POST {{local}}/api/v2/gestao/update-teste
+Content-Type: application/x-www-form-urlencoded
+
+&cluster='SP - LITORAL'
+&codigo_pai='84776'
+&analizado='1'
+&exportado='0'
+&preco_decisao='16.30'
 &uid='99999'
 &db_schema='dia'
 
