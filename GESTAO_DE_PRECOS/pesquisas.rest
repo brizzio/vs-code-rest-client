@@ -1,7 +1,7 @@
 
-@local = http://localhost:5566
+//@local = http://localhost:5566
 
-//@local = https://bigboxapi.profitmais.com.br
+@local = https://bigboxapi.profitmais.com.br
 
 
 @schema ='dia'
@@ -19,6 +19,18 @@ Content-Type: application/x-www-form-urlencoded
 &db_schema={{schema}}
 
 
+###
+//***********************************************
+//  filtrodependentes
+//  pesquisa itens baseado em uma string
+//***********************************************
+POST {{local}}/api/v2/gestao/pesquisas
+Content-Type: application/x-www-form-urlencoded
+
+&cluster='BIG BOX CENTRO'
+&codigo_pai='6550-1'
+&tipo_concorrente='ESTUDO'
+&db_schema='pricing_bigbox'
 
 
 

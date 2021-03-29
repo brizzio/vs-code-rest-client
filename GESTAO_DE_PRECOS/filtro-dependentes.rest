@@ -12,7 +12,7 @@
 POST {{local}}/api/v2/gestao/filtro-dependentes
 Content-Type: application/x-www-form-urlencoded
 
-&grupo='Frio +'
+&grupo=null
 &fornecedor=null
 &produto=null
 &bandeira=null

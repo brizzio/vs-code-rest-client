@@ -3,10 +3,6 @@
 @local = https://bigboxapi.profitmais.com.br
 @token = Bearer e975b15aa477ee440417ea069e8ef728a22933f0
 
-<<<<<<< HEAD
 GET {{local}}/api/v2/gestao/search/dia/petit/SP - RIBEIRÃO PRETO
-=======
-GET {{local}}/api/v2/gestao/search/dia/7331
->>>>>>> 97991e2427c685bef2436639a4bfde012c739a8c
 Content-Type: application/x-www-form-urlencoded
 

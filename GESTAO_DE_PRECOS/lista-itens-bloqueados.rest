@@ -12,3 +12,17 @@ Content-Type: application/x-www-form-urlencoded
 &registros='250'
 &pagina='1'
 &db_schema='dia'
+
+
+###
+//***********************************************
+//  DEMO PT
+//***********************************************
+
+POST {{local}}/api/v2/gestao/update/lista-itens-bloqueados
+Content-Type: application/x-www-form-urlencoded
+
+&uid='11111'
+&registros='250'
+&pagina='1'
+&db_schema='demo_pt'

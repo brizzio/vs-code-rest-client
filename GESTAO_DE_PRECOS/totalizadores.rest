@@ -1,7 +1,7 @@
 
-//@local = http://localhost:5566
+@local = http://localhost:5566
 
-@local = https://bigboxapi.profitmais.com.br
+//@local = https://bigboxapi.profitmais.com.br
 
 //***********************************************
 //  filtrodependentes
@@ -29,7 +29,25 @@ Content-Type: application/x-www-form-urlencoded
 //Mrg Reg Sugestão --> margem_nova_ponderada2
 //Mrg Reg Final -----> margem_real
 
+###
+//***********************************************
+//  IKESAKI
+//***********************************************
 
+POST {{local}}/api/v2/gestao/totalizadores
+Content-Type: application/x-www-form-urlencoded
+
+&grupo=null
+&fornecedor=null
+&produto=null
+&bandeira=null
+&sensibilidade=null
+&papel_categoria=null
+&sub_grupo=null
+&cluster=null
+&departamento=null
+&secao=null
+&db_schema='ikesaki'
 
 
 

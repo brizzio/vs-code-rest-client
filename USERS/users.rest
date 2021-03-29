@@ -21,9 +21,11 @@ GET {{local}}/api/users/config/cyymacena@icloud.com
 ###
 GET {{local}}/api/users/config/pricepoint.bigbox@profitmais.com.br
 
+###
+GET {{local}}/api/users/config/pricepoint.ikesaki@profitmais.com.br
 
-
-
+###profit demo portugues
+GET {{local}}/api/users/config/pricepoint.profit@profitmais.com.br
 
 
 

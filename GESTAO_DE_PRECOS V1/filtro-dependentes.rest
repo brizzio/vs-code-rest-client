@@ -1,7 +1,7 @@
 
-//@local = http://localhost:5566
+@local = http://localhost:5566
 
-@local = https://bigboxapi.profitmais.com.br
+//@local = https://bigboxapi.profitmais.com.br
 
 
 //***********************************************
@@ -9,7 +9,7 @@
 //  pesquisa itens baseado em uma string
 //***********************************************
 
-POST {{local}}/api/v1/gestao/filtro-dependentes
+POST {{local}}/api/v2/gestao/filtro-dependentes
 Content-Type: application/x-www-form-urlencoded
 
 &grupo=null
@@ -18,10 +18,11 @@ Content-Type: application/x-www-form-urlencoded
 &bandeira=null
 &sensibilidade=null
 &papel_categoria=null
-&sub_grupo=null
-&cluster=null
+&sub_grupo='ABACAXI'
+&cluster='FERRAZ'
 &departamento=null
 &secao=null
+&db_schema='semar'
 
 
 
