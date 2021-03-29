@@ -3,26 +3,29 @@
 //@local = https://bigboxapi.profitmais.com.br
 
 #database de referencia
-@schema ='pricing_bigbox'
+@db=dia
 
 @bandeira=null
-@cluster=null
+@cluster='MG - BH BAIXO'
 @departamento=null
 @secao=null
 @grupo=null
-@subgrupo=null
+@subgrupo='Azucar'
 @papel_categoria=null
 @sensibilidade=null
 @fornecedor=null
+@schema='dia'
 
-
-
-#***********************************************
-#  TOTALIZADORA GERAL - RESPEITANDO OS FILTROS
-#  
-#***********************************************
 ###
-POST {{local}}/api/v2/gestao/totalizadores
+GET {{local}}/api/v2/filters/{{db}}
+Content-Type: application/x-www-form-urlencoded
+
+# ****************************************************
+# filtro dependente
+# ****************************************************
+
+###
+POST {{local}}/api/v2/gestao/filtro-dependentes
 Content-Type: application/x-www-form-urlencoded
 
 &grupo={{grupo}}
@@ -35,22 +38,6 @@ Content-Type: application/x-www-form-urlencoded
 &cluster={{cluster}}
 &departamento={{departamento}}
 &secao={{secao}}
+&registros='250'
+&pagina='1'
 &db_schema={{schema}}
-
-#***********************************************
-#  TOTALIZADORA ITENS EDITADOS
-#  Analizado=1
-#***********************************************
-###
-POST {{local}}/api/v2/gestao/totalizadores-editados
-Content-Type: application/x-www-form-urlencoded
-
-&db_schema={{schema}}
-
-
-
-
-
-
-
-

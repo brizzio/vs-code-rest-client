@@ -3,7 +3,7 @@
 //@local = https://bigboxapi.profitmais.com.br
 
 #database de referencia
-@schema ='pricing_bigbox'
+@schema ='dia'
 
 @bandeira=null
 @cluster=null
