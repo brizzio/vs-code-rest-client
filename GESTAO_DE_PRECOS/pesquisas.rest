@@ -27,9 +27,9 @@ Content-Type: application/x-www-form-urlencoded
 POST {{local}}/api/v2/gestao/pesquisas
 Content-Type: application/x-www-form-urlencoded
 
-&cluster='BIG BOX CENTRO'
-&codigo_pai='6550-1'
-&tipo_concorrente='ESTUDO'
+&cluster='BIG BOX OESTE'
+&codigo_pai='423-5'
+&tipo_concorrente='PRIMARIO'
 &db_schema='pricing_bigbox'
 
 

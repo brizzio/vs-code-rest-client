@@ -1,0 +1,33 @@
+
+//@local = http://localhost:5566
+
+@local = https://apipp.profitmais.com.br
+
+
+
+@schema ='semar'
+
+//***********************************************
+//  filtrodependentes
+//  pesquisa itens baseado em uma string
+//***********************************************
+POST {{local}}/api/v2/gestao/pesquisas
+Content-Type: application/x-www-form-urlencoded
+
+&cluster='GUAIANAZES'
+&codigo_pai='18864'
+&tipo_concorrente='PRIMARIO'
+&db_schema={{schema}}
+
+
+
+
+
+
+
+
+
+
+
+
+

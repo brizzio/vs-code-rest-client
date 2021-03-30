@@ -1,0 +1,21 @@
+
+//@local = http://localhost:5566
+@local = https://apipp.profitmais.com.br
+
+
+//***********************************************
+//  
+//***********************************************
+
+GET {{local}}/api/users/
+
+###
+GET {{local}}/api/users/config/pricepoint.semar@profitmais.com.br
+
+
+
+
+
+
+
+

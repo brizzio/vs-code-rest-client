@@ -1,9 +1,10 @@
 
-@local = http://localhost:5566
-//@local = https://bigboxapi.profitmais.com.br
+//@local = http://localhost:5566
+@local = https://apipp.profitmais.com.br
+
 
 #database de referencia
-@schema ='dia'
+@schema ='semar'
 
 @bandeira=null
 @cluster=null

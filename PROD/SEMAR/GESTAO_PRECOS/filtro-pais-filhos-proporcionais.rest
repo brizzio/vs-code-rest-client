@@ -1,17 +1,17 @@
 
-@local = http://localhost:5566
+//@local = http://localhost:5566
+@local = https://apipp.profitmais.com.br
 
-//@local = https://bigboxapi.profitmais.com.br
 
 #database de referencia
-@schema ='dia'
+@schema ='semar'
 
 @bandeira =null
-@cluster='MG - BH BAIXO'
+@cluster=null 
 @departamento=null
 @secao=null
 @grupo=null
-@subgrupo='Azucar'
+@subgrupo=null
 @papel_categoria=null
 @sensibilidade=null
 @fornecedor=null
@@ -34,7 +34,7 @@ Content-Type: application/x-www-form-urlencoded
 &cluster={{cluster}}
 &departamento={{departamento}}
 &secao={{secao}}
-&registros='250'
+&registros='50'
 &pagina='1'
 &db_schema={{schema}}
 
