@@ -1,0 +1,101 @@
+//@local = http://localhost:5566
+@local = https://apipp.profitmais.com.br
+
+
+#database de referencia
+@schema ='semar'
+@uid='88888'
+
+//***********************************************
+//  LISTAGEM DOS ITENS EDITADOS
+//***********************************************
+###
+POST {{local}}/api/v2/gestao/update/lista-itens-editados
+Content-Type: application/x-www-form-urlencoded
+
+&uid={{uid}}
+&registros='250'
+&pagina='1'
+&db_schema={{schema}}
+
+//***********************************************
+//  RESET ITENS EDITADOS
+//***********************************************
+###
+POST {{local}}/api/v2/gestao/update/reset-editados
+Content-Type: application/x-www-form-urlencoded
+
+&uid={{uid}}
+&db_schema={{schema}}
+
+
+//***********************************************
+// EXPORTA ITENS
+//***********************************************
+###
+POST {{local}}/api/v2/gestao/export
+Content-Type: application/x-www-form-urlencoded
+
+&uid={{uid}}
+&data='08/01/2021'
+&db_schema={{schema}}
+
+//***********************************************
+//  LISTA ITENS EXPORTADOS ---- getItensExportadosByUserId
+//***********************************************
+###
+POST {{local}}/api/v2/gestao/update/lista-itens-exportados
+Content-Type: application/x-www-form-urlencoded
+
+&uid={{uid}}
+&registros='250'
+&pagina='1'
+&db_schema={{schema}}
+
+//***********************************************
+//  RESET ITENS EXPORTADOS----resetItensExportadosByUserId
+//***********************************************
+###
+POST {{local}}/api/v2/gestao/export
+Content-Type: application/x-www-form-urlencoded
+
+&uid={{uid}}
+&db_schema={{schema}}
+
+//***********************************************
+//  DOWNLOAD ARQUIVO DE EXPORTACAO ---- downloadItensExportados
+//***********************************************
+###
+POST {{local}}/api/v2/gestao/file-download
+Content-Type: application/x-www-form-urlencoded
+
+&db_schema={{schema}}
+
+//***********************************************
+//  LISTA ITENS BLOQUEADOS ---- getItensBloqueadosByUserId
+//***********************************************
+###
+POST {{local}}/api/v2/gestao/update/lista-itens-bloqueados
+Content-Type: application/x-www-form-urlencoded
+
+&db_schema={{schema}}
+
+
+//***********************************************
+//  RESET ITENS BLOQUEADOS ---resetItensBloqueadosByUserId
+//***********************************************
+###
+POST {{local}}/api/v2/gestao/update/reset-bloqueados
+Content-Type: application/x-www-form-urlencoded
+
+&uid={{uid}}
+&db_schema={{schema}}
+
+
+
+
+
+
+
+
+

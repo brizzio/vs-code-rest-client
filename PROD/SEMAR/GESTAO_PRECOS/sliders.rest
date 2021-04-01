@@ -1,0 +1,64 @@
+
+//@local = http://localhost:5566
+
+@local = https://apipp.profitmais.com.br
+
+@schema ='semar'
+
+//***********************************************
+//  RECUPERA OS EXTREMOS DOS SLIDERS
+//***********************************************
+###
+POST {{local}}/api/v2/gestao/classificador/valores-min-max-sliders
+Content-Type: application/x-www-form-urlencoded
+
+&grupo=null
+&fornecedor=null
+&produto=null
+&bandeira=null
+&sensibilidade=null
+&papel_categoria=null
+&sub_grupo=null
+&cluster=null
+&departamento=null
+&secao=null
+&db_schema={{schema}}
+
+
+//***********************************************
+//  LISTA OS ITENS DDO FILTRO
+//***********************************************
+### SEMAR
+POST {{local}}/api/v2/gestao/classificador/slider-filtro
+Content-Type: application/x-www-form-urlencoded
+
+&grupo=null
+&fornecedor=null
+&produto=null
+&bandeira=null
+&nome_bandeira=null
+&sensibilidade=null
+&papel_categoria=null
+&sub_grupo=null
+&subgrupo=null
+&cluster=null
+&departamento=null
+&secao=null
+&registros='150'
+&pagina='1'
+&db_schema={{schema}}
+&tipo='pais'
+&slider='1'
+&maioriguala='0'
+&abaixo_de='-9000'
+&acima_de='17909'
+
+
+
+
+
+
+
+
+
+

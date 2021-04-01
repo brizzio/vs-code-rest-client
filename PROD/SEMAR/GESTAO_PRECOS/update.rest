@@ -1,0 +1,49 @@
+
+//@local = http://localhost:5566
+
+@local = https://apipp.profitmais.com.br
+@schema ='semar'
+###
+//***********************************************
+//  atualiza valores
+//***********************************************
+
+//ODORIZ. PEROLA GEL 60G 
+POST {{local}}/api/v2/gestao/update
+Content-Type: application/x-www-form-urlencoded
+
+&cluster='UBATUBA'
+&codigo_pai='16745'
+&analizado='1'
+&exportado='0'
+&preco_decisao='11.15'
+&uid='88888'
+&db_schema={{schema}}
+
+//***********************************************
+//  CHECKBOXES - UPDATE MULTIPLO
+//***********************************************
+###
+POST {{local}}/api/v2/gestao/update/checkboxes
+Content-Type: application/x-www-form-urlencoded
+
+&grupo=null
+&fornecedor=null
+&produto=null
+&bandeira=null
+&sensibilidade=null
+&papel_categoria=null
+&sub_grupo='ACAI CONGELADO'
+&cluster='BERTIOGA'
+&departamento=null
+&secao=null
+&analisado='1'
+&uid='88888'
+&db_schema={{schema}}
+
+
+
+
+
+
+

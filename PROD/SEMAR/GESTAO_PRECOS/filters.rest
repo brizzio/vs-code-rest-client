@@ -17,7 +17,7 @@
 @schema='semar'
 
 ###
-GET {{local}}/api/v2/filters/{{db}}
+GET {{local}}/api/v2/filters/semar
 Content-Type: application/x-www-form-urlencoded
 
 # ****************************************************
@@ -38,6 +38,4 @@ Content-Type: application/x-www-form-urlencoded
 &cluster={{cluster}}
 &departamento={{departamento}}
 &secao={{secao}}
-&registros='250'
-&pagina='1'
 &db_schema={{schema}}

@@ -1,0 +1,51 @@
+Itens para Exportação = itens_editados
+
+Itens com Alteração de Preço = itens_preco_alterado
+
+Mrg Objetiva = margem_objetiva_ponderada2
+
+Mrg Reg Atual = margem_atual_ponderada2
+
+Mrg Reg Sugestão = margem_nova_ponderada2
+
+Mrg Reg Final = margem_real
+
+Índice Atual - Médio = indice_competitividade_atual_medio
+ 
+	     - Ponderado = indice_competitividade_atual_ponderado
+
+Índice Novo - Médio =  indice_competitividade_novo_medio 
+ 	    
+	    - Ponderado =  indice_competitividade_novo_ponderado 
+
+Índice Final - Médio =  indice_final_medio 
+             
+	     - Ponderado =  indice_ponderado_sugestao 
+ 
+Dif. Mrg Reg = diferenca_total
+
+
+{
+      "itens_exportados": "144944",
+    **"margem_atual_ponderada": "0.271902928598518336609620288363617618759294728966",------margem_atual_ponderada2
+
+    ? "total_vendas": "17903421.9976350707066", 
+    **"margem_nova_ponderada": "0.27389707918270177434267055913391513332398803283006500946", ----margem_nova_ponderada2
+
+    ? "venda_total_atual": "122497018",
+    ? "venda_total_novo_preco": "122239672",
+    **"margem_objetiva_ponderada": "0.25651756805199467101", --------- margem_objetiva_ponderada2
+
+    ok"diferenca_total": "138280.82881175232130538285282396692335695546838954800000000000000",
+    ok"indice_competitividade_atual_medio": "98.24158203307814073295",
+    ok"indice_competitividade_atual_ponderado": "96.9325311046626127755477800",
+    ok"indice_final_medio": "98.24158203307814073295",
+    ok"indice_competitividade_novo_medio": "98.92910497502748634345",
+    ok"indice_competitividade_novo_ponderado": "97.9488135369436247975018600",
+    ok"itens_editados": "0",
+    ok"itens_preco_alterado": "78467",
+     ?"margem_regular_sugestao": "0.23667372157476807957885652463662538",
+     ?"indice_medio_sugestao": "98.24158203307814073295",
+    ok"indice_ponderado_sugestao": "96.9325311046626127755477800",
+    ok"margem_real": "0.272628099310598233609866937704301134962425066224052551799947"
+    }
