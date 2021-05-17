@@ -2,7 +2,7 @@
 //@local = http://localhost:5566
 
 @local = https://apipp.profitmais.com.br
-@schema ='semar'
+@schema ='bigbox'
 ###
 //***********************************************
 //  atualiza valores
@@ -12,12 +12,12 @@
 POST {{local}}/api/v2/gestao/update
 Content-Type: application/x-www-form-urlencoded
 
-&cluster='UBATUBA'
-&codigo_pai='16745'
+&cluster='BIG BOX AGUAS CLARA'
+&codigo_pai='10005-6'
 &analizado='1'
 &exportado='0'
-&preco_decisao='11.15'
-&uid='88888'
+&preco_decisao='5.99'
+&uid='60739'
 &db_schema={{schema}}
 
 //***********************************************

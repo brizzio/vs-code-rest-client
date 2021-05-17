@@ -28,7 +28,7 @@ Content-Type: application/x-www-form-urlencoded
 //***********************************************
 //  LISTA OS ITENS DDO FILTRO
 //***********************************************
-### SEMAR
+###  Diferença Margem Regular R$ ----------------
 POST {{local}}/api/v2/gestao/classificador/slider-filtro
 Content-Type: application/x-www-form-urlencoded
 
@@ -53,8 +53,55 @@ Content-Type: application/x-www-form-urlencoded
 &abaixo_de='-9000'
 &acima_de='17909'
 
+###   Margem Regular Nova % ----------------
+POST {{local}}/api/v2/gestao/classificador/slider-filtro
+Content-Type: application/x-www-form-urlencoded
 
+&grupo=null
+&fornecedor=null
+&produto=null
+&bandeira=null
+&nome_bandeira=null
+&sensibilidade=null
+&papel_categoria=null
+&sub_grupo=null
+&subgrupo=null
+&cluster=null
+&departamento=null
+&secao=null
+&registros='150'
+&pagina='1'
+&db_schema={{schema}}
+&tipo='pais'
+&slider='2'
+&maioriguala='0'
+&abaixo_de='-9000'
+&acima_de='17909'
 
+###    Variação Preço % ----------------
+POST {{local}}/api/v2/gestao/classificador/slider-filtro
+Content-Type: application/x-www-form-urlencoded
+
+&grupo=null
+&fornecedor=null
+&produto=null
+&bandeira=null
+&nome_bandeira=null
+&sensibilidade=null
+&papel_categoria=null
+&sub_grupo=null
+&subgrupo=null
+&cluster=null
+&departamento=null
+&secao=null
+&registros='150'
+&pagina='1'
+&db_schema={{schema}}
+&tipo='pais'
+&slider='2'
+&maioriguala='0'
+&abaixo_de='-41'
+&acima_de='50'
 
 
 

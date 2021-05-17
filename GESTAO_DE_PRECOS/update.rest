@@ -43,12 +43,12 @@ Content-Type: application/x-www-form-urlencoded
 POST {{local}}/api/v2/gestao/update
 Content-Type: application/x-www-form-urlencoded
 
-&cluster='FERRAZ'
-&codigo_pai='150429'
-&analisado='1'
+&cluster='SUZANO'
+&codigo_pai='131523'
+&analizado='1'
 &exportado='0'
-&preco_decisao='7.20'
-&uid='99999'
+&preco_decisao='40.49'
+&uid='88888'
 &db_schema='semar'
 
 

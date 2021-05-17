@@ -1,16 +1,17 @@
 
-//@local = http://localhost:5566
-@local = https://apipp.profitmais.com.br
+@local = http://localhost:5566
+//@local = https://apipp.profitmais.com.br
 
 #database de referencia
 @db=semar
 
+@filters='{bandeira:null,cluster:null,departamento:null,secao:null,grupo:null,sub_grupo:null,produto:null,sensibilidade:null,papel_categoria:null,escala:null,fornecedor:null}'
 @bandeira=null
-@cluster='FERRAZ'
-@departamento=null
+@cluster=null
+@departamento='BAZAR,BEBIDAS'
 @secao=null
 @grupo=null
-@subgrupo='AVES'
+@subgrupo=null
 @papel_categoria=null
 @sensibilidade=null
 @fornecedor=null
@@ -28,14 +29,15 @@ Content-Type: application/x-www-form-urlencoded
 POST {{local}}/api/v2/gestao/filtro-dependentes
 Content-Type: application/x-www-form-urlencoded
 
-&grupo={{grupo}}
-&fornecedor={{fornecedor}}
-&produto=null
+
 &bandeira={{bandeira}}
-&sensibilidade={{sensibilidade}}
-&papel_categoria={{papel_categoria}}
-&sub_grupo={{subgrupo}}
 &cluster={{cluster}}
 &departamento={{departamento}}
 &secao={{secao}}
+&grupo={{grupo}}
+&sub_grupo={{subgrupo}}
+&papel_categoria={{papel_categoria}}
+&sensibilidade={{sensibilidade}}
+&fornecedor={{fornecedor}}
 &db_schema={{schema}}
+

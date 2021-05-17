@@ -1,7 +1,11 @@
 
-//@local = http://localhost:5566
-@local = https://bigboxapi.profitmais.com.br
+@local = http://localhost:5566
+//@local = https://bigboxapi.profitmais.com.br
 
+###
 GET {{local}}/api/v2/gestao/search/semar/4846
 Content-Type: application/x-www-form-urlencoded
 
+###
+GET {{local}}/api/v2/gestao/search/ikesaki/47891
+Content-Type: application/x-www-form-urlencoded

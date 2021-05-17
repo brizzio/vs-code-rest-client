@@ -1,6 +1,7 @@
 
 //@local = http://localhost:5566
-@local = https://bigboxapi.profitmais.com.br
+
+@local = https://apipp.profitmais.com.br
 @schema ='pricing_bigbox'
 
 //***********************************************
@@ -26,6 +27,13 @@ GET {{local}}/api/users/config/pricepoint.ikesaki@profitmais.com.br
 
 ###profit demo portugues
 GET {{local}}/api/users/config/pricepoint.profit@profitmais.com.br
+
+###MAMBO
+GET {{local}}/api/users/config/pricepoint.mambo@profitmais.com.br
+
+
+###UNIDASUL
+GET {{local}}/api/users/config/pricepoint.unidasul@profitmais.com.br
 
 
 

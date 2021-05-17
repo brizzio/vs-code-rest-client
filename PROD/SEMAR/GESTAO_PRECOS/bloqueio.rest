@@ -1,0 +1,39 @@
+
+//@local = http://localhost:5566
+
+@local = https://apipp.profitmais.com.br
+@schema ='semar'
+###
+//***********************************************
+//  chamada da update que bloqueia o item
+//***********************************************
+
+//
+POST {{local}}/api/v2/gestao/update
+Content-Type: application/x-www-form-urlencoded
+
+&cluster='UBATUBA'
+&codigo_pai='12510'
+&analizado='2'
+&exportado='0'
+&preco_decisao='4.49'
+&uid='88888'
+&db_schema={{schema}}
+
+//***********************************************
+//  chamada para listar os itens bloqueados
+//***********************************************
+###
+POST {{local}}/api/v2/gestao/update/lista-itens-bloqueados
+Content-Type: application/x-www-form-urlencoded
+
+&registros='50'
+&pagina='1'
+&db_schema={{schema}}
+
+
+
+
+
+
+

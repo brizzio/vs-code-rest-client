@@ -1,6 +1,6 @@
 
-@local = http://localhost:5566
-//@local = https://bigboxapi.profitmais.com.br
+//@local = http://localhost:5566
+@local = https://apipp.profitmais.com.br
 //***********************************************
 //  filtrodependentes
 //  pesquisa itens baseado em uma string
@@ -9,7 +9,7 @@
 POST {{local}}/api/v2/gestao/file-download
 Content-Type: application/x-www-form-urlencoded
 
-&db_schema='semar'
+&db_schema='bigbox'
 
 
 

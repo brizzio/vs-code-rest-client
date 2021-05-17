@@ -2,7 +2,7 @@
 @local = http://localhost:5566
 
 //@local = https://bigboxapi.profitmais.com.br
-@schema ='dia'
+@schema ='bigbox'
 
 //***********************************************
 //  filtrodependentes
@@ -22,8 +22,7 @@ Content-Type: application/x-www-form-urlencoded
 &cluster=null
 &departamento=null
 &secao=null
-&db_schema='dia'
-//{{schema}}
+&db_schema={{schema}}
 
 
 

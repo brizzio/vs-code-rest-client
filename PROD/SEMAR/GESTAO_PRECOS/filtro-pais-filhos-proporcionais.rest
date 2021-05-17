@@ -1,6 +1,6 @@
 
-//@local = http://localhost:5566
-@local = https://apipp.profitmais.com.br
+@local = http://localhost:5566
+//@local = https://apipp.profitmais.com.br
 
 
 #database de referencia
@@ -8,7 +8,7 @@
 
 @bandeira =null
 @cluster=null 
-@departamento=null
+@departamento='BAZAR,BEBIDAS'
 @secao=null
 @grupo=null
 @subgrupo=null

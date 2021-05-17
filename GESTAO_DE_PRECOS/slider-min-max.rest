@@ -1,7 +1,8 @@
 
-@local = http://localhost:5566
+//@local = http://localhost:5566
 
-//@local = https://bigboxapi.profitmais.com.br
+@bb='pricing_bigbox'
+@local = https://bigboxapi.profitmais.com.br
 
 
 //***********************************************
@@ -18,11 +19,11 @@ Content-Type: application/x-www-form-urlencoded
 &bandeira=null
 &sensibilidade=null
 &papel_categoria=null
-&sub_grupo='Azucar'
+&sub_grupo=null
 &cluster=null
 &departamento=null
 &secao=null
-&db_schema='dia'
+&db_schema={{bb}}
 
 
 
