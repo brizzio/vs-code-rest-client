@@ -1,0 +1,56 @@
+
+@local = http://localhost:5566
+//@local = https://bigboxapi.profitmais.com.br
+
+#database de referencia
+@schema ='pricing_bigbox'
+
+@bandeira=null
+@cluster=null
+@departamento=null
+@secao=null
+@grupo=null
+@subgrupo=null
+@papel_categoria=null
+@sensibilidade=null
+@fornecedor=null
+
+
+
+#***********************************************
+#  TOTALIZADORA GERAL - RESPEITANDO OS FILTROS
+#  
+#***********************************************
+###
+POST {{local}}/api/v2/gestao/totalizadores
+Content-Type: application/x-www-form-urlencoded
+
+&grupo={{grupo}}
+&fornecedor={{fornecedor}}
+&produto=null
+&bandeira={{bandeira}}
+&sensibilidade={{sensibilidade}}
+&papel_categoria={{papel_categoria}}
+&sub_grupo={{subgrupo}}
+&cluster={{cluster}}
+&departamento={{departamento}}
+&secao={{secao}}
+&db_schema={{schema}}
+
+#***********************************************
+#  TOTALIZADORA ITENS EDITADOS
+#  Analizado=1
+#***********************************************
+###
+POST {{local}}/api/v2/gestao/totalizadores-editados
+Content-Type: application/x-www-form-urlencoded
+
+&db_schema={{schema}}
+
+
+
+
+
+
+
+

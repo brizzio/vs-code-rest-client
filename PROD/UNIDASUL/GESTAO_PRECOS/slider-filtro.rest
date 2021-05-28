@@ -1,0 +1,168 @@
+
+//@local = http://localhost:5566
+@local = https://apipp.profitmais.com.br
+@schema = 'rissul'
+//***********************************************
+//  classificador/diferenca-total
+//  pesquisa itens baseado em uma string
+//***********************************************
+
+POST {{local}}/api/v2/gestao/classificador/slider-filtro
+Content-Type: application/x-www-form-urlencoded
+
+&grupo=null
+&fornecedor=null
+&produto=null
+&bandeira='DIA'
+&sensibilidade=null
+&papel_categoria=null
+&sub_grupo='Azucar'
+&cluster=null
+&departamento=null
+&secao=null
+&slider='3'
+&maioriguala='0'
+&abaixo_de='5'
+&acima_de='22'
+&registros='250'
+&pagina='1'
+&db_schema='dia'
+
+
+###
+POST {{local}}/api/v2/gestao/classificador/slider-filtro
+Content-Type: application/x-www-form-urlencoded
+
+&grupo=null
+&fornecedor=null
+&produto=null
+&bandeira=null
+&sensibilidade=null
+&papel_categoria=null
+&sub_grupo=null
+&cluster=null
+&departamento=null
+&secao=null
+&slider='2'
+&maioriguala='20'
+&registros='50'
+&pagina='3'
+&db_schema={{schema}}
+
+###
+POST {{local}}/api/v2/gestao/classificador/slider-filtro
+Content-Type: application/x-www-form-urlencoded
+
+&grupo=null
+&fornecedor=null
+&produto=null
+&bandeira=null
+&nome_bandeira=null
+&sensibilidade=null
+&papel_categoria=null
+&sub_grupo=null
+&subgrupo=null
+&cluster=null
+&departamento=null
+&secao=null
+&registros='150'
+&pagina='1'
+&db_schema='dia'
+&tipo='pais'
+&slider='1'
+&maioriguala='0'
+&abaixo_de='-2243'
+&acima_de='2417'
+
+
+### SEMAR
+POST {{local}}/api/v2/gestao/classificador/slider-filtro
+Content-Type: application/x-www-form-urlencoded
+
+&grupo=null
+&fornecedor=null
+&produto=null
+&bandeira=null
+&nome_bandeira=null
+&sensibilidade=null
+&papel_categoria=null
+&sub_grupo=null
+&subgrupo=null
+&cluster=null
+&departamento='LIMPEZA'
+&secao=null
+&registros='150'
+&pagina='1'
+&db_schema='semar'
+&tipo='pais'
+&slider='1'
+&maioriguala='0'
+&abaixo_de='-800'
+&acima_de='1125'
+
+
+### BIGBOX
+POST {{local}}/api/v2/gestao/classificador/slider-filtro
+Content-Type: application/x-www-form-urlencoded
+
+&grupo=null
+&fornecedor=null
+&produto=null
+&bandeira=null
+&nome_bandeira=null
+&sensibilidade=null
+&papel_categoria=null
+&sub_grupo=null
+&subgrupo=null
+&cluster=null
+&departamento=null
+&secao=null
+&registros='25'
+&pagina='2'
+&db_schema='pricing_bigbox'
+&tipo='pais'
+&slider='2'
+&abaixo_de='-50'
+&acima_de='97'
+
+
+### BIGBOX ----- data
+POST {{local}}/api/v2/gestao/classificador/slider-filtro
+Content-Type: application/x-www-form-urlencoded
+
+&bandeira=null
+&cluster=null
+&departamento=null
+&secao=null
+&grupo=null
+&sub_grupo=null
+&sensibilidade=null
+&papel_categoria=null
+&fornecedor=null
+&registros='50'
+&pagina='1'
+&db_schema=bigbox'
+&tipo='pais'
+&slider='4'
+&data_ini='05/05/2021'
+&data_fim='07/05/2021'
+
+###
+grupo: null
+fornecedor: null
+produto: null
+bandeira: null
+sensibilidade: null
+papel_categoria: null
+sub_grupo: null
+cluster: null
+departamento: null
+secao: null
+registros: '25'
+pagina: '1'
+db_schema: 'bigbox'
+tipo: 'pais'
+slider: '4'
+data_ini: '05/05/2021'
+data_fim: '07/05/2021'
+

@@ -1,0 +1,66 @@
+
+//@local = http://localhost:5566
+
+@local = https://apipp.profitmais.com.br
+@schema ='bigbox'
+###
+//***********************************************
+//  atualiza valores
+//***********************************************
+
+//ODORIZ. PEROLA GEL 60G 
+POST {{local}}/api/v2/gestao/update
+Content-Type: application/x-www-form-urlencoded
+
+&cluster='BIG BOX AGUAS CLARA'
+&codigo_pai='10005-6'
+&analizado='1'
+&exportado='0'
+&preco_decisao='5.99'
+&uid='60739'
+&db_schema={{schema}}
+
+//***********************************************
+//  CHECKBOXES - UPDATE MULTIPLO
+//***********************************************
+###
+POST {{local}}/api/v2/gestao/update/checkboxes
+Content-Type: application/x-www-form-urlencoded
+
+&grupo=null
+&fornecedor=null
+&produto=null
+&bandeira=null
+&sensibilidade=null
+&papel_categoria=null
+&sub_grupo='ACAI CONGELADO'
+&cluster='BERTIOGA'
+&departamento=null
+&secao=null
+&analisado='1'
+&uid='88888'
+&db_schema={{schema}}
+
+###
+//***********************************************
+//  teste da update cy
+//***********************************************
+
+//TALCO JOHNSONS BABY 200G HORA SONO 
+POST {{local}}/api/v2/gestao/update
+Content-Type: application/x-www-form-urlencoded
+
+&cluster='ARUJÁ'
+&codigo_pai='10107'
+&analizado='1'
+&exportado='0'
+&preco_decisao='19.9'
+&uid='88888'
+&db_schema={{schema}}
+
+
+
+
+
+
+
